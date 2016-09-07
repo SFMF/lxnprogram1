@@ -1,0 +1,196 @@
+.header_container{
+    border-bottom: 1px solid #ececec;
+}
+
+.header_main{
+    width:1150px;
+    margin:0 auto;
+    height:70px;
+}
+.web_logo{
+	width:156px;
+	float:left;
+}
+.web_logo a{
+    display: block;
+}
+.web_logo img{
+    height:42px;
+    width:156px;
+    margin-top:16px;
+}
+
+.functional_area{
+	margin-top:18px;
+	float:right;
+}
+.user_function{
+	float: right;
+	margin-top:8px;
+}
+.user_function li{
+	float:left;
+	padding: 0 20px;
+	position:relative;
+}
+.download_app a{
+	display: block;
+	width:14px;height:20px;
+	background: url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+    background-position: -38px -84px;
+}
+.download_app div{
+	position: absolute;
+	left: -40px;
+	top:40px;
+	box-shadow: 0 0 2px #ccc;
+}
+.download_app div span{
+	height:11px;
+	width:16px;
+	background: url(../images/icon_bg.png) no-repeat top -162px left -26px;
+	background-size: auto 200px;
+	position:absolute;
+	top:-11px;
+	left:45%;
+}
+
+.shopping_bag a{
+	display: block;
+	height:20px;
+	width:17px;
+	background: url(../images/icon_bg.png) no-repeat left 0 top -84px;
+	background-size: auto 200px;
+}
+.user_center a{
+	display: block;
+	height:20px;
+	width:20px;
+	background: url(../images/icon_bg.png) no-repeat left -17px top -84px;
+	background-size: auto 200px;
+}
+
+.search_box{
+	float:right;
+	height:32px;
+	background: rgb(248,248,248);
+	border-radius: 16px;
+	margin-right:8px;
+	border: 1px solid rgb(248,248,248);
+	position:relative;
+}
+
+.search_box p{
+	height:34px;
+	overflow: hidden;
+}
+#searchtxt{
+	width:170px;
+	height:34px;
+	background: none;
+	font-size:14px;
+	color:#949494;
+	text-indent: 16px;
+	float: left;
+	/*去掉点击时出现的外边框*/
+	outline: none;
+}
+#searchbtn{
+	display: inline;
+	float:left;
+	width:30px;
+	height:34px;
+	background: none;
+	cursor: pointer;
+}
+#searchbtn img{
+	margin-top:8px;
+	height:18px;
+	width:18px;
+}
+#hot_list{
+	display: none;
+	width:262px;
+	height:auto;
+	max-height:210px;
+	font-size:14px;
+	background: white;
+	border:1px solid #ececec;
+	position:absolute;
+	top:33px;
+	left:16px;
+	overflow-y: scroll;
+	z-index: 999;
+}
+#hot_list li a{
+	display: block;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	text-indent:15px;
+	color:#949494;
+}
+.on{
+	background: #f8f8f8;
+}
+
+.nav_box{
+	height:50px;
+	position:relative;
+}
+.nav_contain{
+	width:1150px;
+	margin:0 auto;
+}
+.nav_contain li{
+	float:left;
+	margin-right:44px;
+	height:50px;
+	line-height:50px;
+	cursor: pointer;
+	position:relative;
+}
+
+.nav_contain a{
+	color:#4a4a4a;
+	font-size:14px;
+}
+
+
+.nav_contain p{
+	height:1px;
+	width:70px;
+	background: #B93A2C;
+	position:absolute;
+	left:50%;
+	bottom: 0;
+	margin-left:-35px;
+	display: none;
+}
+
+.nav_contain ul>li ol{
+	height:55px;
+	width:1150px;
+	background: url("../images/navigation.png") repeat-x left top;
+	position:absolute;
+	left:0px;
+	display:none;
+}
+
+.nav_bar_sonbox{
+	display: none;
+	width:100%;
+	height:55px;
+	position:absolute;
+	top:50px;
+	left:0;
+	background: url("../images/navigation.png") repeat-x left top;
+	z-index: 100;
+}
+.nav_bar_son{
+	width:1150px;
+	margin:0 auto;
+}
+
+

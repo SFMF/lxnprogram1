@@ -1,0 +1,109 @@
+.banbox{
+    overflow: hidden;
+    margin-bottom:60px;
+    position:relative;
+}
+#imgUl{
+    width:1920px;
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
+#imgUl li{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+#imgUl a{
+    display: block;
+}
+
+.imgLeft,.imgRight{
+    height:40px;
+    width:30px;
+    position: absolute;
+    top:50%;
+    margin-top:-20px;
+    cursor:pointer;
+    display: none;
+}
+.imgLeft{
+    left:0px;
+}
+.imgRight{
+    right:0px;
+}
+.imgLeft p,.imgRight p{
+    height:40px;
+    background:#BEBDBB;
+    opacity: 0.5;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imgLeft img,.imgRight img{
+    height:30px;
+    width:16px;
+    margin-top:5px;
+    margin-left:7px;
+}
+.imgPage{
+    position:absolute;
+    bottom: 10px;
+    left:50%;
+    margin-left:-16px;
+}
+
+.imgPage p{
+    height:8px;
+    width:8px;
+    background:#BEBDBB;
+    opacity: 0.5;
+    border-radius: 4px;
+    margin-right:8px;
+    float:left;
+    cursor:pointer;
+}
+
+.imgPage .onPage{
+    background:white;
+    opacity: 0.9;
+}
+
+.select_prefer{
+    width:1150px;
+    margin:0 auto;
+}
+.little_bt{
+    font-size: 20px;
+    line-height:20px;
+    color:#4a4a4a;
+}
+.select_prefer_contain{
+    margin-top:50px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.selectleft a{
+    display:block;
+}
+.selectleft{
+    float:left;
+    width:760px;
+}
+.selectright{
+    float: right;
+}
+.selectleft .top{
+    margin-bottom: 20px;
+}
+.selectleft .left{
+    float: left;
+}
+.selectleft .right{
+    float: right;
+}
+
+
+
