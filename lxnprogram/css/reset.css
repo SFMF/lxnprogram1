@@ -2,6 +2,10 @@ body,img,input,h1,h2,h3,h4,h5,ul,li,ol,dl,dd,dt,table,p{
     margin:0;
     padding:0;
 }
+h1,h2,h3,h4,h5,h6{
+    bold:100;
+    font-size:12px;
+}
 body{font: 12px "微软雅黑", "Hiragino Sans GB", "冬青黑体简体中文", sans-serif;}
 li{
     list-style: none;

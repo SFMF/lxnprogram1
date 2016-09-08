@@ -6,6 +6,13 @@ $(document).ready(function () {
 			$(this).next().fadeOut(400);
 		}
 	);
+
+	$(".attention ul").hover(function () {
+		$(this).children("li").fadeIn(400);
+	},function () {
+		$(this).children("li").fadeOut(400);
+	});
+
 	$("#searchtxt").click(function(){
 		$(this).animate({width:'270'},500,function(){
 			$(".search_box").css({"border":"1px solid rgb(248,248,248)","background-color":"white"});
@@ -61,6 +68,8 @@ $(document).ready(function () {
 			});
 		},400);
 	});
+
+
 
 
 })

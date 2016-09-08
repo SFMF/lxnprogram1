@@ -45,6 +45,7 @@
 	left: -40px;
 	top:40px;
 	box-shadow: 0 0 2px #ccc;
+	z-index:999;
 }
 .download_app div span{
 	height:11px;
